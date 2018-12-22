@@ -22,7 +22,7 @@ This program is displayed on a webserver but is currently not hosted, so to run 
 - Then use ```node app``` to run the program.
 - Finally go to ```localhost:3000``` on a web browser to start.
 
-**Note:** The provided 'output.txt' will allow the simulation to run but since this project uses the PThreads library. It is only possible to generate and run additional simulations unless using Linux.
+**Note:** The provided 'output.txt' will allow the simulation to run but since this project uses the PThreads library. It is only possible to generate and run additional simulations while using Linux.
 
 ## Demonstration
 The following YouTube video shows a simulation from start to finish.
