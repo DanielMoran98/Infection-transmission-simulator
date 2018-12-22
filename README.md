@@ -13,7 +13,7 @@ For this project I wanted to be able to use a huge cellular automaton for my sim
 - JavaScript
   - Node.js
   - Terra.js
-  - Charts.js
+  - Chart.js
 
 ## To use
 This program is displayed on a webserver but is currently not hosted, so to run you will need Node.js installed.
