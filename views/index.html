@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cellular Automata</title>
+    <style> body {padding: 0; margin: 0;} </style>
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/styles.css">
+    <script src="//cdn.jsdelivr.net/terra/latest/mainfile"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="../public/javascripts/Script.js"></script>
+    <script src="../node_modules/chart.js/dist/Chart.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+
+  <body onLoad="">
+    <center>
+
+        <h1 style="font-family:'Varela Round', verdana; color:white; background-color:rgba(0,0,0,.5); margin:0; padding:20px;">Simulating the spread of a zombie infection using 'Cellular Automata'</h1>
+
+    </center>
+
+    <div class="container" style="Margin-top:50px;">
+      <div class="row">
+        <div class="col-sm">
+          <div id="Content" style=" height:520px;">
+          <div id="grid">
+          </div>
+          </div>
+          <div id="counters">
+            <h3 id="humanCounter"></h3>
+            <h3 id="zombieCounter"></h3>
+            <h3 id="deceasedCounter"></h3>
+            <h3 id="militaryCounter"></h3>
+            <h3 id="latentCounter"></h3>
+          </div>
+          <h3 id="genCounter" style="margin-left: -210px;  margin-bottom: -10px;padding:20px;"></h3>
+          <center>
+          <button type="button" class="btn btn-success" id="BeginSimulaton">Begin Simulation</button>
+          </center>
+        </div>
+        <div class="col-sm">
+
+        </div>
+        <div class="col-sm">
+          <div id="mycanvas" style="Padding:10px;">
+
+            <canvas id="canvas" width="500" height="150" style="" ></canvas>
+            <div style="height:50px;"></div>
+            <div id="NewLine">
+            <canvas id="canvasLine" width="500" height="300" style="" ></canvas>
+            </div>
+
+            <div class="form-group" style="display:inline;vertical-align:top; text-align:center;">
+              <label for="Generation" style="color:white; float: left; padding:5px;">Get data for generation</label><br><br>
+              <input type="number" class="form-control" id="Generation" placeholder="Enter Generation" style="width:50%; float: left;">
+              <button class="btn btn-primary" type="button" id="CustomGen">Submit</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script>
+
+
+
+  </script>
+</html>

@@ -1,0 +1,74 @@
+body{
+  background-color: #870000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='77' stroke-opacity='0.1' %3E%3Ccircle fill='%23870000' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23800702' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23790c03' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23731105' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%236c1606' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23661907' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23601c08' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%235a1f09' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2354200a' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%234e220a' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2348220b' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2343220b' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%233d220b' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2338210b' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2333200b' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%232e1f0b' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23291d0a' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23241b0a' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+  font-family: 'Varela Round', sans-serif;
+  color:white;
+}
+#content{
+  margin-top:100px;
+  margin-bottom:100px;
+
+}
+.human{
+  background-color:#2b9141 !important;
+}
+.zombie{
+  background-color:#ce1e39 !important;
+}
+.deceased{
+  background-color:black !important;
+}
+.military{
+  background-color: #4b3de2 !important;
+}
+
+table{
+  margin:0px;
+  padding:20px;
+  background-color:white;
+  border-radius:15px;
+}
+tr{
+  margin:0px;
+  padding:0px;
+}
+tbody{
+  margin:0px;
+  padding:0px;
+}
+td{
+  margin:0px;
+}
+#counters{
+  position:fixed;
+  left:0;
+  top:40%;
+  color:blue;
+  background-color: rgba(0,0,0,0.75);
+  text-align:left;
+}
+#humanCounter{
+  color:#2b9141;
+}
+#zombieCounter{
+  color:#ce1e39;
+}
+#deceasedCounter{
+  color: white;
+}
+#militaryCounter{
+  color:#4b3de2;
+}
+#latentCounter{
+  color:#006400
+}
+#genCounter{
+  position:fixed;
+  color:white;
+  bottom:0px;
+  background-color: rgba(0,0,0,0.75);
+}
