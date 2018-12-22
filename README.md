@@ -1,7 +1,7 @@
 # Simulating the spread of an infection using a cellular automoton.
 
 ## About
-For this project I wanted to be able to use a huge cellular automaton for my simulation, so since it would take so long to do all the calculations for each generation I decided to use a multithreaded approach, as well as splitting my application into two programs.
+For this project I wanted to be able to use a huge cellular automaton for my simulation, so since it would take so long to do all the calculations for each generation I decided to use a multithreaded approach, as well as splitting my application into two programs:
 
 - A multithreaded C program which will do all the calculations and output data for each generation to a file.
 - A JavaScript program to read in this output file, and display the data alongside live statistics for the current simulation.
