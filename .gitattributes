@@ -1,3 +1,4 @@
 public/javascripts/jquery-3.3.1.min.js linguist-vendored
 javascripts/jquery-3.3.1.min.js linguist-vendored
 (\.|-)min\.(js|css)$ linguist-vendored
+/node_modules linguist-vendored
